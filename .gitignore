@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Hugging Face cache
+.cache/huggingface/
+
+# Large data artifacts — dataset loaded remotely
+*.parquet
+*.arrow
