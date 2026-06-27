@@ -1,0 +1,13 @@
+# Core dependencies
+datasets>=2.14.0          # Hugging Face dataset loading
+ipython>=8.0.0            # Jupyter display utilities
+matplotlib>=3.7.0         # Core visualization
+networkx>=3.0.0           # Graph construction and centrality analysis
+numpy>=2.0.0              # Numerical computation
+pandas>=2.2.0             # DataFrame operations
+python-louvain>=0.16.0    # Louvain community detection (import as 'community')
+scipy>=1.11.0             # Chi-Square statistical testing
+seaborn>=0.12.0           # Statistical visualization
+
+# Optional — notebook falls back gracefully if not installed
+pymannkendall>=1.4.2      # Formal Mann-Kendall trend test
